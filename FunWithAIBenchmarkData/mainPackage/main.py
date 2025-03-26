@@ -1,11 +1,24 @@
-# main.py
-# Bill Nicholson
-# nicholdw@ucmail.uc.edu
+# File Name : main.py
+# Student Name: David Becker, Nikki Carfora, Michael Slivinski
+# email:  beckerd8@mail.uc.edu
+# Assignment Number: Assignment 08
+# Due Date:   3/27/2025
+# Course #/Section:   IS4010-001
+# Semester/Year:   Spring 2025
+# Brief Description of the assignment: Add modular image display and data visualization.
+
+# Brief Description of what this module does: Runs the full program: reads data, shows image, and visualizes results
+# Citations: https://github.com/nicomp42/FunWithAIBenchmarkData
+
+# Anything else that's relevant:
 
 from readingLevelPackage.readingLevel import Reading_Level
 from utilitiesPackage.utilities import *
 from utilitiesPackage.CSV_Utilities import *
 from PDFPackage.PDFUtilities import *
+from pokemonPackage.ImageDisplay import *
+from visualizationPackage.DataVisual import *
+
 
 if __name__ == "__main__":
 
@@ -45,6 +58,9 @@ if __name__ == "__main__":
     #6b. Write the question identifier (see 6a, above) and the correct answer to another text file. Use a CSV format.
     questions_written = write_questions_to_text_files("MMLU", questions)
     print(questions_written, "questions written to the file.")
+
+    display_pokemon_logo("dataPackage/Pokemon/TeamAnimal.png")
+    show_question_length_histogram(questions)
     
     """
     # This code is commented out

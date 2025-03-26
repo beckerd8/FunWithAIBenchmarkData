@@ -28,6 +28,18 @@
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="visualizationPackage\DataVisual.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizationPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pokemonPackage\ImageDisplay.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pokemonPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PDFPackage\PDFUtilities.py">
       <SubType>Code</SubType>
     </Compile>
@@ -55,7 +67,10 @@
     <Folder Include="dataPackage\MMLU\" />
     <Folder Include="dataPackage\MMLU\data\" />
     <Folder Include="dataPackage\MMLU\results\" />
+    <Folder Include="dataPackage\Pokemon\" />
     <Folder Include="mainPackage\" />
+    <Folder Include="visualizationPackage\" />
+    <Folder Include="pokemonPackage\" />
     <Folder Include="PDFPackage\" />
     <Folder Include="readingLevelPackage\" />
     <Folder Include="utilitiesPackage\" />
@@ -118,6 +133,8 @@
     <Content Include="dataPackage\MMLU\data\us_foreign_policy_test.csv" />
     <Content Include="dataPackage\MMLU\data\virology_test.csv" />
     <Content Include="dataPackage\MMLU\data\world_religions_test.csv" />
+    <Content Include="dataPackage\Pokemon\ivysaur.jpg" />
+    <Content Include="dataPackage\Pokemon\TeamAnimal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

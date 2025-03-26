@@ -18,7 +18,7 @@ from utilitiesPackage.CSV_Utilities import *
 from PDFPackage.PDFUtilities import *
 from pokemonPackage.ImageDisplay import *
 from visualizationPackage.DataVisual import *
-
+from visualizationPackage.pieVisual import *
 
 if __name__ == "__main__":
 
@@ -61,7 +61,10 @@ if __name__ == "__main__":
 
     display_pokemon_logo("dataPackage/Pokemon/TeamAnimal.png")
     show_question_length_histogram(questions)
+
+    show_letter_distribution_pie(questions, answer_key_column="correct answer")
     
+
     """
     # This code is commented out
     #Reading_Level.test01()

@@ -61,6 +61,7 @@ if __name__ == "__main__":
 
     display_pokemon_logo("dataPackage/Pokemon/TeamAnimal.png")
     show_question_length_histogram(questions)
+    show_question_word_frequency(questions)
     
     """
     # This code is commented out

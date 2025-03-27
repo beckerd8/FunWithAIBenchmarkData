@@ -19,6 +19,7 @@ from PDFPackage.PDFUtilities import *
 from pokemonPackage.ImageDisplay import *
 from visualizationPackage.DataVisual import *
 from visualizationPackage.pieVisual import *
+from visualizationPackage.frequencyVisual import *
 
 if __name__ == "__main__":
 
@@ -63,6 +64,7 @@ if __name__ == "__main__":
     show_question_length_histogram(questions)
 
     show_letter_distribution_pie(questions, answer_key_column="correct answer")
+    show_question_word_frequency(questions)
     
 
     """

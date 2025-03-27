@@ -31,6 +31,9 @@
     <Compile Include="visualizationPackage\DataVisual.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="visualizationPackage\pieVisual.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="visualizationPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
